@@ -200,6 +200,9 @@ header{
     
  }
  
+ .categories h3, p {
+    margin-bottom: 7px;
+ }
  
  
  .redy{
@@ -748,10 +751,7 @@ button{
             padding: 0 15px;
         } 
     }
-/* 
-    header{
-        padding: 0 20px;
-    }  */
+
 
     
 .container i{
@@ -765,29 +765,7 @@ button{
 }
 
 @media only screen and (max-width:935px) {
-    /* #contact{
-        padding: 4rem 0;
-    
-       
-    }  */
-  
-.form{
-    display: block;
-    /* padding-left: 0; */
-    /* padding-right: 0; */
-    /* margin-bottom: 0; */
-} 
 
-#form-container{
-    margin-bottom: 30px;
-    width: 100%;
-    
-}
-
-.address-container{
-    width: 100%;
-    
-}
  
     .hamburger{
         display: block;
@@ -801,7 +779,6 @@ button{
     }
 
     .nav-bar{
-        /* display: none; */
         height: 0;
         position: absolute;
         top: 80px;
@@ -831,7 +808,21 @@ button{
     }
    
 
-
+   
+    .form{
+        display: block;
+    } 
+    
+    #form-container{
+        margin-bottom: 30px;
+        width: 100%;
+        
+    }
+    
+    .address-container{
+        width: 100%;
+        
+    }
     
 }  
 
