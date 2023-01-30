@@ -808,24 +808,26 @@ button{
     }
    
 
-   
-    .form{
-        display: block;
-    } 
-    
-    #form-container{
-        margin-bottom: 30px;
-        width: 100%;
-        
-    }
-    
-    .address-container{
-        width: 100%;
-        
-    }
     
 }  
 
+@media only screen and (max-width:935px) {
+ .form{
+     display: block;
+ } 
+ 
+ #form-container{
+     margin-bottom: 30px;
+     width: 100%;
+     
+ }
+ 
+ .address-container{
+     width: 100%;
+     
+ }
+
+}
    
    
   
