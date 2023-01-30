@@ -78,13 +78,14 @@ header{
      margin-top: 20px;
  
  } */
- .slider{
-     
+ .slider-frame{
+    /* object-fit: cover; */
      width: 100%;
      height: 550px;
      overflow: hidden;
  }
  .slides{
+     object-fit: cover;
      width: 500%;
      height: 500px;
      display: flex;
@@ -101,6 +102,7 @@ header{
  .slide img{
      width:100%;
      height: 550px;
+     
  } 
  
  /* CSS FOR MANUAL NAVIGATOR */
@@ -331,15 +333,18 @@ h4{
 }
 
 .click-btn{
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    display: flex;
     padding:10px 70px;
     background-color: #ff523b;
     border: none;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    margin: auto;
     color: #fefefe;
     border-radius: 40px;
+}
+
+.click-btn:hover{
+    background: #b61a06;
 }
 
 
@@ -401,7 +406,7 @@ h4{
 } 
 #form-container input,
 #form-container textarea{
-    width: 30rem;
+    /* width: 30rem; */
     height: 2rem;
     border-radius: 10px;
     border: 1px solid #ced4da;
@@ -447,7 +452,7 @@ h4{
 }
 
 
-.contact textarea {
+#contact textarea {
     display: block;
     
 }
@@ -492,7 +497,7 @@ footer{
  
 .footer-container{
     display: flex;
-    padding: 0 2rem; 
+    padding: 0 7px;
 }
     /* justify-content: space-between; */
     /* background: #b61a06; */
@@ -548,7 +553,7 @@ footer .footer-quick-links ul li a:hover{
 }
 
 footer .footer-subscribe{
-    width: 45%;
+    width: 65%;
 }
 #subscribe-container{
     position: relative;
@@ -580,6 +585,7 @@ footer button.right-rounded{
     border: none;
     position: absolute;
     right: 0;
+    
 
 }
 footer button.right-rounded:hover{
@@ -639,8 +645,8 @@ footer button.right-rounded:hover{
    
  .agent-frames{
     display: grid;
-    padding-top: 2rem; 
-    grid-gap: 2rem;
+    padding: 3rem 0; 
+    grid-gap: 4rem;
     justify-content: center;
     /* grid-template-columns: repeat(3, 350px); */
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
@@ -731,11 +737,21 @@ button{
 } 
 
   
-@media only screen and (max-width:344px) {
+@media only screen and (max-width:500px) {
  
     .logo{
-        font-size: 25px;
+        font-size: 30px;
     }
+
+    @media(max-width:300px){
+        header{
+            padding: 0 15px;
+        } 
+    }
+/* 
+    header{
+        padding: 0 20px;
+    }  */
 
     
 .container i{
@@ -749,11 +765,18 @@ button{
 }
 
 @media only screen and (max-width:935px) {
-   
+    /* #contact{
+        padding: 4rem 0;
+    
+       
+    }  */
   
 .form{
     display: block;
-}
+    /* padding-left: 0; */
+    /* padding-right: 0; */
+    /* margin-bottom: 0; */
+} 
 
 #form-container{
     margin-bottom: 30px;
@@ -770,11 +793,11 @@ button{
         display: block;
         cursor: pointer;
     }
-    .hamburger .line{
-        width: 30px;
-        height: 3px;
+    .hamburger .line {
+        width: 25px;
+        height: 5px;
         background: #fefefe;
-        margin: 6px 0;
+        margin: 3px 0; 
     }
 
     .nav-bar{
@@ -872,4 +895,17 @@ button{
       footer {
         padding: 4rem 0;
       }
+
+      #form-container{
+        padding: 3rem 1rem;
+      }
+
+       
+.form{
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* margin-bottom: 0; */
+} 
+
 }
