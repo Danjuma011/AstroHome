@@ -14,3 +14,12 @@ setInterval(function(){
       counter = 1;
     }
 }, 5000);
+
+
+document.querySelectorAll(".slc").forEach(ele=>{
+    ele.addEventListener("click",function(e){
+        e.stopPropagation()
+        let id = this.id
+        counter = id.slice(5)
+    })
+})
