@@ -317,15 +317,15 @@ h4{
 
 /* PROPERTIES CSS STARTS */
 
-.properies-big-container h2{
+.properties-big-container h2{
      text-align: center;
      color: #ff523b;
      font-size: 30px;
 }
 
-.properies-big-container{
+.properties-big-container{
     border-top:5px solid #777;
-    padding: 5rem 0 4rem;
+    padding: 2rem 0 4rem;
     background-color: #f8f9fa;
 }
 
