@@ -810,7 +810,7 @@ footer button.right-rounded:hover{
 
 
 /* ABOUT CSS BEGINS */
-/* 
+
 .services-container{
     background: #f8f9fa;
     border-top: 5px solid #777;
@@ -838,14 +838,22 @@ footer button.right-rounded:hover{
 
 }
 
-.service-card-right a{
+.service-card-right  a{
     color: #ff523b;
     width: 80%;
     float: right;
     
 }
 
-.service-card-right h1, p{
+.service-card-right h1 {
+    margin-bottom: 15px;
+    width: 80%;
+    float: right;
+    
+
+}
+
+.service-card-right  p{
     margin-bottom: 15px;
     width: 80%;
     float: right;
@@ -863,7 +871,7 @@ footer button.right-rounded:hover{
 .service-card-right a:hover{
     text-decoration: underline;
    
-} */
+}
 
 /* ABOUT CSS ENDS */
 
