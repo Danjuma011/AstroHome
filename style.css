@@ -324,7 +324,7 @@ h4{
 }
 
 .properties-big-container{
-    border-top:5px solid #777;
+    border-top:3px solid #777;
     padding: 2rem 0 4rem;
     background-color: #f8f9fa;
 }
@@ -429,7 +429,7 @@ h4{
 #contact{
     background-color: #f8f9fa;
     padding: 4rem 0 8rem;
-    border-top: 5px solid #777;
+    border-top: 3px solid #777;
 }
     
 #contact h1{
@@ -702,7 +702,7 @@ footer button.right-rounded:hover{
 .agents-container{
     padding: 2rem 1rem 4rem;
     background-color: #f8f9fa;
-    border-top: 5px solid #777;
+    border-top: 3px solid #777;
     
 }
 
@@ -813,7 +813,7 @@ footer button.right-rounded:hover{
 
 .services-container{
     background: #f8f9fa;
-    border-top: 5px solid #777;
+    border-top: 3px solid #777;
     
 
 }
@@ -822,6 +822,7 @@ footer button.right-rounded:hover{
     padding-top: 60px;
     text-align: center;
     color: #ff523b;
+    font-size: 30px;
     
 }
 
