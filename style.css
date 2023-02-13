@@ -19,6 +19,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0px 100px;
+    
 }
 .logo{
     font-size: 40px;
@@ -57,11 +58,11 @@ header{
  /* CSS FOR NAV-BAR ENDS */
 
 /* CSS FOR SHOWCASE STARTS */
-.sly{
+.slide-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 45px;  */
+    border-top:3px solid #777;
     
  } 
  .checkbtn{
@@ -323,7 +324,8 @@ h4{
 }
 
 .properies-big-container{
-    padding: 3rem 0 4rem;
+    border-top:5px solid #777;
+    padding: 5rem 0 4rem;
     background-color: #f8f9fa;
 }
 
@@ -427,6 +429,7 @@ h4{
 #contact{
     background-color: #f8f9fa;
     padding: 4rem 0 8rem;
+    border-top: 5px solid #777;
 }
     
 #contact h1{
@@ -695,6 +698,27 @@ footer button.right-rounded:hover{
 
  /* AGENT STYLING  STARTS*/
 
+ 
+.agents-container{
+    padding: 2rem 1rem 4rem;
+    background-color: #f8f9fa;
+    border-top: 5px solid #777;
+    
+}
+
+
+.agent-frames h3{
+    padding-left: 30px;
+}
+
+.small-frame h3 p {
+    box-sizing: border-box;
+    background-color: #777;
+    
+}
+
+
+
    
  .agent-frames{
     display: grid;
@@ -767,24 +791,6 @@ footer button.right-rounded:hover{
     width: 50%;
 } 
 
-.agents-container{
-    padding: 2rem 1rem 4rem;
-    background-color: #f8f9fa;
-    
-}
-
-
-.agent-frames h3{
-    padding-left: 30px;
-}
-
-.small-frame h3 p {
-    box-sizing: border-box;
-    background-color: #777;
-    
-}
-
-
 .agent-btn{
     margin-left: 30px;
     padding:10px 20px;
@@ -807,6 +813,8 @@ footer button.right-rounded:hover{
 
 .services-container{
     background: #f8f9fa;
+    border-top: 5px solid #777;
+    
 
 }
 
@@ -814,6 +822,7 @@ footer button.right-rounded:hover{
     padding-top: 60px;
     text-align: center;
     color: #ff523b;
+    
 }
 
 .services-small-container{
@@ -822,18 +831,38 @@ footer button.right-rounded:hover{
     grid-gap: 4rem;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
-    padding-bottom: 100px; 
+    padding-bottom: 100px;
+    
+    
     
 
 }
 
 .service-card-right a{
     color: #ff523b;
+    width: 80%;
+    float: right;
+    
 }
 
 .service-card-right h1, p{
     margin-bottom: 15px;
+    width: 80%;
+    float: right;
+    
 
+}
+.services-small-container .fas{
+    color: #ff523b;
+    font-size: 40px;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.service-card-right a:hover{
+    text-decoration: underline;
+   
 }
 
 /* ABOUT CSS ENDS */
@@ -889,6 +918,7 @@ footer button.right-rounded:hover{
     .hamburger{
         display: block;
         cursor: pointer;
+        
     }
     .hamburger .line {
         width: 25px;
@@ -907,6 +937,8 @@ footer button.right-rounded:hover{
         background: #fefefe;
         transition: 1.5s;
         overflow: hidden;
+        
+
     }
     .nav-bar.active{
         height: 450px;
