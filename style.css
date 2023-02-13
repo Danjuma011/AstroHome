@@ -287,6 +287,7 @@ header{
     border: none;
     color: #fefefe;
     cursor: pointer;
+    
 }
 .house-btn:hover{
     background-color: #b61a06;
@@ -334,6 +335,28 @@ h4{
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
    
+}
+
+
+.properties-btn{
+    padding:10px 20px;
+    background: #ff523b;
+    border-radius: 20px;
+    border: none;
+    color: #fefefe;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.properties-btn:hover{
+    background-color: #b61a06;
+}
+
+.properties-container h3 {
+    margin-left: 20px;
+}
+
+.properties-container p {
+    margin-left: 20px;
 }
 
  
