@@ -1053,6 +1053,14 @@ footer button.right-rounded:hover{
         padding: 3rem 1rem;
       }
 
+      .properties-big-container h2{
+        font-size: 25px;
+      }
+
+      .agents-small-container p {
+        width: 70%;
+      }
+
        
 .form{
     display: block;
