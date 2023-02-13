@@ -10,10 +10,11 @@
 body{
     background: #fefefe;
 }
+
+/* CSS FOR NAV-BAR STARTS */
 header{
     width: 100%;
     height: 80px;
-    /* background-color: #11101b; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,7 +54,9 @@ header{
     background: #ff523b;
  }
 
+ /* CSS FOR NAV-BAR ENDS */
 
+/* CSS FOR SHOWCASE STARTS */
 .sly{
     display: flex;
     justify-content: center;
@@ -69,15 +72,7 @@ header{
      margin-right: 40px;
  
  }
-/*  
- .slider-frames{
-     overflow: hidden;
-     height: 800px;
-     width: 1200px;
-     margin-left: 360px;
-     margin-top: 20px;
- 
- } */
+
  .slider-frame{
     /* object-fit: cover; */
      width: 100%;
@@ -104,8 +99,10 @@ header{
      height: 550px;
      
  } 
+
  
- /* CSS FOR MANUAL NAVIGATOR */
+ 
+ /* CSS FOR MANUAL NAVIGATOR STARTS */
  .navigation-manual{
      position: absolute;
      width: 100%;
@@ -153,8 +150,10 @@ header{
  #radio4:checked ~ .first{
      margin-left: -60%;
  }
+
+ /* CSS FOR MANUAL NAVIGATOR ENDS */
  
- /* CSS FOR AUTOMATIC NAVIGATION */
+ /* CSS FOR AUTOMATIC NAVIGATION STARTS */
  .navigation-auto {
      position: absolute;
      display: flex;
@@ -190,6 +189,10 @@ header{
  #radio4:checked ~ .navigation-auto .auto-btn4{
      background: #ff523b;
  } 
+
+  /* CSS FOR AUTOMATIC NAVIGATION ENDS*/
+
+ /* CSS FOR SHOWCASE ENDS */
   
  .categories{
      display: grid;
@@ -205,19 +208,16 @@ header{
  }
  
  
- .redy{
+ .house-img{
     
      width: 100%;
      height: 350px; 
      margin-bottom: 0.5rem;
-     /* padding: 0, 20px; */
-     
-     
+    
  }
  
   .categ{
      text-align: center;
-     /* margin: 0 auto 20px; */
      position: relative;
      line-height: 60px;
      margin-top: 50px;
@@ -236,13 +236,12 @@ header{
      transform: translateX(-50%);
  
  }
- .redy:hover{
+ .house-img:hover{
      transform: translateY(-10px);
      transition: transform 0.5s;
  }
 
  .howitworks-container{
-    /* background: #f8f9fa; */
     padding: 20px 0;
  }
 
@@ -280,6 +279,19 @@ header{
     
     
 }
+
+.house-btn{
+    padding:10px 20px;
+    background: #ff523b;
+    border-radius: 20px;
+    border: none;
+    color: #fefefe;
+    cursor: pointer;
+}
+.house-btn:hover{
+    background-color: #b61a06;
+}
+
 .container h4{
     text-align: center;
 }
@@ -301,6 +313,34 @@ h4{
     margin-bottom: 10px;
 }
 
+/* PROPERTIES CSS STARTS */
+
+.properies-big-container h2{
+     text-align: center;
+     color: #ff523b;
+     font-size: 30px;
+}
+
+.properies-big-container{
+    padding: 3rem 0 4rem;
+    background-color: #f8f9fa;
+}
+
+  
+.properties-container{
+    display: grid;
+    padding-top: 2rem;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+   
+}
+
+ 
+/* PROPERTIES CSS ENDS */
+
+
+/* AGENTS INDEX CSS STARTS */
 
 .agents-small-container h2{
     text-align: center;
@@ -350,6 +390,7 @@ h4{
     background: #b61a06;
 }
 
+/* AGENTS INDEX CSS STARTS ENDS */
 
 
 
@@ -357,8 +398,7 @@ h4{
 
 
 
-
-/* Contact css */
+/* CONTACT CSS STARTS */
 
    
 #contact{
@@ -376,9 +416,6 @@ h4{
 
 
 .form{
-    /* display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 20px; */
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -398,18 +435,15 @@ h4{
     background-color: #fefefe;
     padding: 3rem;
     box-sizing: border-box;
-    /* padding-right: 20px; */
     
 }
 #form-container label{
     display: block;
     margin-top: 1rem;
-    /* border-radius: 10px; */
     color: #11101b;
 } 
 #form-container input,
 #form-container textarea{
-    /* width: 30rem; */
     height: 2rem;
     border-radius: 10px;
     border: 1px solid #ced4da;
@@ -441,13 +475,6 @@ h4{
 .btn:hover{
     background-color: #b61a06;
 }
-/* .form-container button {
-    display: block;
-    margin-bottom: 2rem;
-    border-radius: 20px;
-    padding: 10px;
-    border: 1px solid #ced4da;
-} */
   
 .address-container{
     padding: 3rem;
@@ -489,7 +516,9 @@ h4{
 
 }
 
-/* FOOTER */
+/* CONTACT CSS ENDS */
+
+/* FOOTER  CSS STARTS */
 
 footer{
     background: #333;
@@ -502,10 +531,6 @@ footer{
     display: flex;
     padding: 0 7px;
 }
-    /* justify-content: space-between; */
-    /* background: #b61a06; */
-    /* padding: 4rem 0 8rem; */
-
 
  footer .footer-container{
     padding-bottom: 6rem; 
@@ -642,8 +667,10 @@ footer button.right-rounded:hover{
     
  }
 
+ /* FOOTER CSS ENDS */
 
- /* AGENT STYLING */
+
+ /* AGENT STYLING  STARTS*/
 
    
  .agent-frames{
@@ -651,8 +678,7 @@ footer button.right-rounded:hover{
     padding: 3rem 0; 
     grid-gap: 4rem;
     justify-content: center;
-    /* grid-template-columns: repeat(3, 350px); */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
 
 }
 
@@ -670,6 +696,42 @@ footer button.right-rounded:hover{
     transition: transform 0.5s;
 }
 
+#agent-1{
+    object-fit: cover;
+}
+
+#agent-2{
+    object-fit: fill;
+}
+
+#agent-3{
+    object-fit: cover;
+}
+
+#agent-4{
+    object-fit: cover;
+}
+
+#agent-5{
+    object-fit: cover;
+}
+
+#agent-6{
+    object-fit: cover;
+}
+
+#agent-7{
+    object-fit: cover;
+}
+
+#agent-8{
+    object-fit: cover;
+}
+
+#agent-9{
+    object-fit: cover;
+}
+
 .agents-small-container h1{
     color: #ff523b;
 }
@@ -679,10 +741,10 @@ footer button.right-rounded:hover{
 }
 .agents-small-container p {
     margin:10px 30px;
+    width: 50%;
 } 
 
 .agents-container{
-    /* padding: 20px; */
     padding: 2rem 1rem 4rem;
     background-color: #f8f9fa;
     
@@ -694,15 +756,11 @@ footer button.right-rounded:hover{
 }
 
 .small-frame h3 p {
-    /* border: 1px solid #777; */
     box-sizing: border-box;
     background-color: #777;
     
 }
-/* 
-button{
-    margin-left: 40px;
-} */
+
 
 .agent-btn{
     margin-left: 30px;
@@ -718,6 +776,44 @@ button{
     background: #b61a06;
 }
 
+/* AGENTS STYLING ENDS */
+
+
+
+/* ABOUT CSS BEGINS */
+
+.services-container{
+    background: #f8f9fa;
+
+}
+
+.services-container h2{
+    padding-top: 60px;
+    text-align: center;
+    color: #ff523b;
+}
+
+.services-small-container{
+    display: grid;
+    padding: 3rem 0; 
+    grid-gap: 4rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+    padding-bottom: 100px; 
+    
+
+}
+
+.service-card-right a{
+    color: #ff523b;
+}
+
+.service-card-right h1, p{
+    margin-bottom: 15px;
+
+}
+
+/* ABOUT CSS ENDS */
 
  
  /* MEDIA QUERY */
