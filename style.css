@@ -376,14 +376,18 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+}
+
+.parent1 h1{
+    margin-bottom: 30px;
 }
 
 
 /* Sign in css ends */
 
 /* Sign-up css starts  */
-form {
+ #parent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -391,7 +395,10 @@ form {
     width: 100vw;
     height: 70vh;
     margin-top: 3rem;
-}
+   
+} 
+
+
 
 input {
     width: 16rem;
