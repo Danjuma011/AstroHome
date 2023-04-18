@@ -57,6 +57,52 @@
         </nav>
     </header>
 
+    <form id="parent" method="post" action="https://astrohome.netlify.app">
+    <h1>Sign-up Page</h1>
+    <label for="first-name">
+        <input type="text" name="name" placeholder="firstname" id="firstname">
+        <p id="firstValid" class="valid">valid</p>
+        <p id="firstError" class="invalid">invalid</p>
+    </label>
+    <label for="surname">
+        <input type="text" placeholder="surname" id="surname">
+        <p id="lastValid" class="valid">valid</p>
+        <p id="lastError" class="invalid">invalid</p>
+    </label>
+    <label for="ccode">
+        Country
+        <select name="ccode" name="age" id="drop-down" class="drop-down">
+
+        </select>
+    </label>
+
+    <label for="dial">
+        <input type="tel" placeholder="telephone number" id="dial">
+        <p id="numValid" class="valid">valid</p>
+        <p id="numError" class="invalid">invalid</p>
+    </label>
+    <label for="email">
+        <input type="email" placeholder="email" id="email">
+        <p id="emailValid" class="valid">valid</p>
+        <p id="emailError" class="invalid">invalid</p>
+    </label>
+    <label for="password">
+        <input type="password" name="password" placeholder="password" id="pass-word">
+        <p id="str" class="str"></p>
+        <p id="passValid" class="valid">valid</p>
+        <p id="passError" class="invalid">invalid</p>
+    </label>
+    <label for="confirm-password">
+        <input type="password" placeholder="confirm password" id="confirm">
+        <p id="conValid" class="valid">valid</p>
+        <p id="conPassError" class="invalid">invalid</p>
+    </label>
+
+    <button id="btn-sub" type="submit">Submit</button>
+</form>
+
+
+
     <script src="./astro.js"></script>
     </body>
     
