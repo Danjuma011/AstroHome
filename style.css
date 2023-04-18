@@ -367,6 +367,20 @@ p {
 h4 {
     margin-bottom: 10px;
 }
+/* Sign in css starts */
+.parent1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #000;
+}
+
+
+/* Sign in css ends */
 
 /* Sign-up css starts  */
 form {
@@ -376,7 +390,7 @@ form {
     align-items: center;
     width: 100vw;
     height: 70vh;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 input {
@@ -396,6 +410,7 @@ button {
     border-width: thin;
     cursor: pointer;
     background-color: #ff523b;
+    color: #fff;
 }
 
 .valid {
@@ -426,6 +441,8 @@ button {
     display: block;
     color: green;
 }
+
+
 
 /* Sign-up css ends  */
 
