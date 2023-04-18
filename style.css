@@ -33,19 +33,17 @@ header {
 }
 
 .hamburger {
-    /* display: flex;
-    background-color: #11101b; */
     display: none;
 }
 
-.bar{
-       display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        background-color: #000;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-bar ul {
@@ -70,6 +68,33 @@ header {
 .nav-bar ul li a.active {
     color: #fefefe;
     background: #ff523b;
+}
+
+.dropdown-1 {
+    display: none;
+}
+
+.nav-bar ul li:hover .dropdown-1 {
+    display: block;
+    position: absolute;
+    background: #fff;
+    /* margin-top: 15px; */
+    /* margin-left: -15px; */
+}
+
+.nav-bar ul li:hover .dropdown-1 ul {
+    display: block;
+    margin-top: 10px;
+}
+
+.nav-bar ul li:hover .dropdown-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
 }
 
 /* CSS FOR NAV-BAR ENDS */
@@ -961,7 +986,21 @@ footer small a:hover {
 
 }
 
-@media only screen and (max-width:935px) {
+@media only screen and (max-width:930px) {
+
+    .nav-bar ul li:hover .dropdown-1 ul {
+        display: block;
+        margin-top: 1px;
+    }
+
+    .nav-bar ul li:hover .dropdown-1 ul li {
+        /* width: 150px; */
+        padding: 1px;
+        border-bottom: none;
+        /* background: transparent; */
+        border-radius: 0;
+        text-align: left;
+    }
 
 
     .hamburger {
@@ -969,17 +1008,18 @@ footer small a:hover {
         cursor: pointer;
 
     }
-         .hamburger.active .bar:nth-child(2) {
-             opacity: 0;
-         }
-    
-         .hamburger.active .bar:nth-child(1) {
-             transform: translateY(8px) rotate(45deg);
-         }
-    
-         .hamburger.active .bar:nth-child(3) {
-             transform: translateY(-8px) rotate(-45deg);
-         }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 
     /* .hamburger .bar {
         width: 25px;
@@ -1020,6 +1060,7 @@ footer small a:hover {
     .nav-bar ul li a {
         margin-bottom: 12px;
     }
+
 
 
 
