@@ -77,7 +77,7 @@ header {
 .nav-bar ul li:hover .dropdown-1 {
     display: block;
     position: absolute;
-    background: #fff;
+    background: blue;
     /* margin-top: 15px; */
     /* margin-left: -15px; */
 }
@@ -89,7 +89,7 @@ header {
 
 .nav-bar ul li:hover .dropdown-1 ul li {
     width: 150px;
-    padding: 10px;
+    padding: 10px 0;
     border-bottom: 1px solid black;
     background: transparent;
     border-radius: 0;
@@ -1082,9 +1082,9 @@ footer small a:hover {
         /* width: 150px; */
         padding: 1px;
         border-bottom: none;
-        /* background: transparent; */
         border-radius: 0;
-        text-align: left;
+        display: flex;
+        justify-content: center;
     }
 
 
