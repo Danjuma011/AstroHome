@@ -77,7 +77,7 @@ header {
 .nav-bar ul li:hover .dropdown-1 {
     display: block;
     position: absolute;
-    background: blue;
+    background: #fff;
     /* margin-top: 15px; */
     /* margin-left: -15px; */
 }
